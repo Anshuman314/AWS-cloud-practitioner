@@ -1,0 +1,42 @@
+<!-- AWS Virtual Private Cloud -->
+AWS Virtual Private Cloud is also called AWS VPC.
+
+VPC is a service that lets you isolate your AWS resources in an isolated network.
+
+The boundaries created around the resources let AWS restrict the network traffic.
+
+In addition, it allows you to include the sections of the AWS Cloud that you want in the isolated network.
+
+Resources can be organized in subnets.
+
+A subnet is a section in the VPC that can contain specific resources.
+<!-- Internet Gateway -->
+Public traffic can be allowed to your VPC.
+
+The traffic is allowed by an Internet Gateway.
+An Internet Gateway is a door between the VPC and the internet.
+
+The traffic enters the VPC through the Internet Gateway.
+
+Without the Internet Gateway, you cannot access the resources in the VPC.
+<!-- Virtual Private Gateway -->
+A Virtual Private Gateway is used to access private resources in the VPC.
+
+It has extra layers of protection.
+
+The Virtual Private Gateway encrypts the internet traffic, keeping it protected.
+
+It is a component that allows the encrypted traffic to enter the VPC.
+The Virtual Private Gateway allows you to make a Virtual Private Network (VPN) between the VPC and private network.
+
+It only allows traffic from approved networks.
+
+Many businesses use VPNs to ensure that their traffic and data are secure.
+<!-- AWS Direct Connect -->
+AWS Direct Connect lets you make a dedicated private connection between the Data Center and a VPC.
+
+A dedicated connection is to have the link for yourself.
+
+The link is not shared with others.
+
+Only you and your data can travel through the connection.

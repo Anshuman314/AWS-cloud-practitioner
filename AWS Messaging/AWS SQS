@@ -1,0 +1,12 @@
+<!-- Cloud Queue Service - AWS SQS -->
+AWS Simple Queue Service is also called AWS SQS
+
+SQS is a message queuing service.
+
+It exchanges and stores messages between software components.
+
+The service adds the messages in a queue.
+
+Users or services pick up the messages from the queue.
+
+Once processed the messages gets deleted from the queue.

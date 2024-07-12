@@ -1,0 +1,12 @@
+Cloud File System - AWS EFS
+AWS EFS is also called AWS Elastic File System.
+
+EFS is a file system.
+
+Data in EFS is accessed via file paths.
+
+Compared to AWS EBS, AWS EFS saves the data in many Availability Zones.
+
+Scaling AWS EFS does not disrupt applications.
+
+It is ideal if many services need to access the same data at the same time.

@@ -1,0 +1,45 @@
+<!-- Innovate with AWS Cloud -->
+Innovation with AWS can improve your business in the cloud.
+
+AWS Services help you:
+
+Evaluate your current business state
+Determine the state you want to be at
+Deal with the problems you need to solve
+Some options for solving your problems that AWS offers you are:
+
+Machine Learning (ML)
+Artificial Intelligence (AI)
+Serverless applications
+
+<!-- Machine Learning - ML -->
+AWS offers you a tool that helps you develop ML features in the AWS cloud.
+
+AWS has a service called Amazon SageMaker.
+
+SageMaker reduces the development time and complexity of ML.
+
+With ML, you can predict situations, solve complex issues, analyze data, and more.
+
+Read more about Machine learning here: Machine Learning Tutorial
+
+<!-- Artificial Intelligence - AI -->
+Artificial Intelligence - AI is software capable of performing complex human tasks.
+
+AWS offers many services that are AI-powered:
+
+Service to build voice and text chatbots - Amazon Lex
+Service that can convert text to speech - Amazon Transcribe
+Service that can discover text patterns - Amazon Comprehend
+Service that can detect potential fraud activities online - Amazon Fraud Detection
+<!-- Serverless Applications -->
+In AWS, you can run the serverless application with a service called AWS Lambda.
+
+It maintains the server for you.
+
+It allows you to give more attention to application development than to administration tasks.
+
+Read more about Serverless and AWS Lambda here:
+
+AWS Lambda
+AWS Serverless

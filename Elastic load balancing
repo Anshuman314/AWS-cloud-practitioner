@@ -1,0 +1,23 @@
+<!-- Elastic Load Balancing Service -->
+This service distributes application traffic across services.
+
+The Load Balancer is a single point of contact for incoming web traffic.
+
+The single point of contact means that the traffic hits the Load Balancer first, spreading out the load between the resources.
+
+The balancer accepts requests and directs them to the appropriate instances.
+
+It ensures that one resource won't get overloaded, and that the traffic is spread out.
+
+AWS EC2 and Elastic Load Balancing are two different services that work well together.
+
+AWS ELB is built to support increased traffic without increasing the hourly cost.
+
+AWS ELB scales automatically.
+
+<!-- Load Allocation -->
+The service allocates incoming traffic between the available resources.
+
+The principle is the same with both high and low demand periods.
+
+It will allocate between what is available at any time.

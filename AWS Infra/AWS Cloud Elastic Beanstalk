@@ -1,0 +1,66 @@
+<!-- Cloud Orchestration Service - Elastic Beanstalk -->
+Elastic Beanstalk is a web infrastructure management service.
+
+Beanstalk handles deployment and scaling for web applications and services.
+
+Elastic Beanstalk helps automatically manage AWS services' setup, configuration, scaling and provisioning.
+
+Automatically managed AWS services: AWS EC2 (Elastic Compute Cloud), Amazon S3 (Simple Storage Service), AWS RDS (Relational Database Service), Amazon DynamoDB, and Amazon SimpleDB.
+<!-- AWS Elastic Beanstalk Supported Platforms -->
+Elastic Beanstalk supports many platforms such as:
+
+Docker
+Go
+Java
+Java with Tomcat
+.NET
+Node.js
+PHP
+Python
+Ruby
+AWS Documentation: Supported platforms
+
+<!-- Create a Python application: You create a simple Flask app and set up the necessary environment. -->
+Initialize Elastic Beanstalk environment: You configure the Elastic Beanstalk application using the AWS Elastic Beanstalk CLI.
+Deploy the application: You create an Elastic Beanstalk environment and deploy the application.
+<!-- Step 1: Create a Python Application -->
+First, create a basic Python application. Let's create a simple Flask app.
+
+Create a directory for your project and navigate into it:
+
+mkdir my-python-app
+cd my-python-app
+Create a virtual environment and install Flask:
+
+python -m venv venv
+source venv/bin/activate
+pip install Flask
+Create a file named application.py:
+
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def hello_world():
+    return 'Hello, World!'
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0')
+<!-- Step 2: Initialize Elastic Beanstalk Environment -->
+Initialize your Elastic Beanstalk application using the AWS Elastic Beanstalk CLI. If you don't have the CLI installed, you can install it by following the AWS CLI installation guide.
+
+Initialize your Elastic Beanstalk environment:
+
+eb init -p python-3.8 my-python-app
+Follow the prompts to set up your application. Ensure you select the correct region and provide the necessary IAM credentials.
+
+<!-- Step 3: Create and Deploy the Application -->
+Create an Elastic Beanstalk environment and deploy your application:
+
+eb create my-python-env
+This command creates an environment named my-python-env. It sets up the necessary resources and deploys your application.
+
+After the environment is created, deploy your application:
+
+eb deploy

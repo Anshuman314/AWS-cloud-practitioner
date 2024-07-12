@@ -1,0 +1,65 @@
+<!-- What is CloudFormation -->
+CloudFormation is an infrastructure service.
+
+It lets you create templates that describe the AWS services that you want.
+
+Then, it handles the config and provisioning of the resources described in the template.
+
+It makes it easier because you do not have to configure the resources individually.
+
+CloudFormation helps to handle the dependencies between the resources.
+
+<!-- Explanation -->
+Create a CloudFormation template: You define the AWS resources you want to create (e.g., an S3 bucket and an EC2 instance) in a YAML file.
+Deploy the template using AWS CloudFormation: You use the AWS CLI to create a CloudFormation stack based on your template, which provisions the specified resources.
+Manage and update the stack: You can update or delete the stack as needed using the AWS CLI.
+<!-- Example of How CloudFormation Works -->
+CloudFormation allows you to create a template that describes the AWS services you want. It then handles the configuration and provisioning of the resources described in the template, making it easier to manage dependencies and configurations.
+
+<!-- Step 1: Create a CloudFormation Template -->
+Create a file named cloudformation-template.yml with the following content:
+
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Basic CloudFormation Template
+
+Resources:
+  MyS3Bucket:
+    Type: 'AWS::S3::Bucket'
+    Properties:
+      BucketName: my-cloudformation-s3-bucket
+
+  MyEC2Instance:
+    Type: 'AWS::EC2::Instance'
+    Properties:
+      InstanceType: t2.micro
+      ImageId: ami-0c55b159cbfafe1f0 # Replace with a valid AMI ID for your region
+      KeyName: my-key-pair # Replace with your key pair name
+      SecurityGroups:
+        - !Ref MySecurityGroup
+
+  MySecurityGroup:
+    Type: 'AWS::EC2::SecurityGroup'
+    Properties:
+      GroupDescription: Allow SSH and HTTP
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 22
+          ToPort: 22
+          CidrIp: 0.0.0.0/0
+        - IpProtocol: tcp
+          FromPort: 80
+          ToPort: 80
+          CidrIp: 0.0.0.0/0
+<!-- Step 2: Deploy the Template Using AWS CloudFormation -->
+Use the AWS CLI to deploy the CloudFormation template:
+
+aws cloudformation create-stack --stack-name my-basic-stack --template-body file://cloudformation-template.yml
+This command creates a CloudFormation stack named my-basic-stack using the template file cloudformation-template.yml.
+
+<!-- Step 3: Manage and Update the Stack -->
+To update the stack with a modified template, use the following command:
+
+aws cloudformation update-stack --stack-name my-basic-stack --template-body file://cloudformation-template.yml
+To delete the stack and all its associated resources, use the following command:
+
+aws cloudformation delete-stack --stack-name my-basic-stack

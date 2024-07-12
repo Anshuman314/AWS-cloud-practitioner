@@ -1,0 +1,12 @@
+<!-- Elastic Container Service - AWS ECS -->
+ECS helps you run containerized applications.
+
+It is a management system built for scale and high performance.
+<!-- AWS ECS and Docker -->
+ECS supports Docker.
+
+Docker is a platform that helps you build, test, and deploy applications.
+
+AWS supports Open-Source Community and Subscription-Based Enterprise Docker Editions.
+
+Use API calls to launch and stop the Docker applications.

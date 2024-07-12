@@ -1,0 +1,33 @@
+<!-- Cloud Pricing Models - AWS -->
+AWS has many different pay-as-you-go pricing options.
+
+<!-- Pay for What You Use -->
+Pay only for the resources that you use.
+
+No need for long-term contracts.
+
+No need for licensing agreements.
+
+<!-- Pay Less When You Reserve -->
+Requires a commitment for future consumption.
+
+You need to pay no matter if you use the services or not.
+
+Reserve resources will give you a discount.
+
+This option is for those who know that they need the resources in the future.
+<!-- Pay Less with Volume-Based Discount When You Use More -->
+The service gets cheaper the more you use.
+
+Pricing per unit gets lower when you cross a threshold.
+
+More use, pay less.
+
+<!-- AWS Pricing Calculator -->
+The Pricing Calculator lets you create a cost estimate for the use of AWS resources.
+
+Organize the estimates into groups.
+
+Use the groups to simulate how your business is organized. For example, by cost centers.
+
+The estimates can be shared with others by links.

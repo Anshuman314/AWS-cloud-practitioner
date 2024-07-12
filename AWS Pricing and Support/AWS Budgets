@@ -1,0 +1,12 @@
+<!-- Budget for Cloud Services - AWS -->
+AWS Budget lets you plan usage, cost, and instance reservations.
+
+The information in AWS Budget is updated three times a day.
+
+Create custom alerts in Budgets.
+
+Use the alerts to warn you if you surpass the usage forecast.
+<!-- Budget Overview -->
+The Budget lets you compare actual vs. budgeted use.
+
+It enables you to compare budgets with many dimensions

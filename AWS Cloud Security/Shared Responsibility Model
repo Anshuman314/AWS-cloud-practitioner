@@ -1,0 +1,38 @@
+<!-- What is the AWS Shared Responsibility Model? -->
+The AWS shared responsibility model is a concept of dividing responsibilities between AWS and a Customer.
+
+The Customer is you.
+
+AWS's responsibilities are the security of the cloud.
+
+Customer responsibilities are security in the cloud.
+<!-- Responsibility of AWS -->
+AWS's responsibility is the security of the cloud.
+
+AWS manages all infrastructure layers.
+
+Some of the infrastructure layers are:
+
+Data centers
+Hardware and software
+Virtualization
+Networking
+<!-- Responsibility of a Customer -->
+Customers' responsibility is the security of everything they make in AWS Cloud.
+
+Customers (you) have complete control over your content.
+
+Customer manages AWS services, software, and access to the data.
+<!-- Responsibility differences: -->
+AWS	----Customer (you)
+Edge locations-----	Networking traffic protection
+Availability zones	---Server-side encryption
+Regions	---Client-side data encryption
+AWS global infrastructure---	Operating systems configuration
+Hardware---	Network configuration
+Networking---	Firewall configuration
+Database---	Platform management
+Storage	---Applications management
+Compute---	Identity management
+Software----	Access management
+Customer ----data

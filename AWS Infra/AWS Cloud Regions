@@ -1,0 +1,39 @@
+<!-- Selecting a Region -->
+There are different reasons to choose a specific region.
+
+Those reasons could be:
+
+Data regulations
+Customer proximity
+Service availability
+Pricing
+<!-- Government Regulations and Data Governance -->
+Some countries do not allow sensitive data to be processed and stored abroad.
+
+Your company might require that all company data shall reside in the country.
+
+<!-- Customer Proximity -->
+Selecting a region near your customers can help to make the services faster.
+<!-- For example: -->
+
+Imagine that your company is based in Seattle and your customers in Norway.
+
+You might want to consider having the infrastructure in a Data Center near you.
+
+Simultaneously, have the applications running in a Data Center near your customers in Norway.
+
+Using sites near your customers results in faster content delivery, giving them a better experience.
+<!-- Region Availability Services -->
+All AWS Data Centers do not support all services and features.
+
+AWS makes new services all the time.
+
+Making services available requires AWS to build infrastructure in the Data Centers.
+
+As a result, the services might not have come to a Data Center near you yet.
+
+You can select a region to access specific services.
+<!-- Pricing -->
+There are many factors in how the prices are set.
+
+For example, the prices might vary from region to region.

@@ -1,0 +1,23 @@
+<!-- Cloud Monitoring and Management Service - AWS CloudWatch -->
+CloudWatch lets you monitor your resources.
+
+It is a web-based service.
+
+Configure the service to monitor and set alarms based on your metrics.
+
+<!-- CloudWatch Alarms -->
+CloudWatch lets you create automatic alarms.
+
+Configure the alarms as you like.
+
+Alarms are triggered at thresholds defined by you.
+
+Alarms are used to control resources. For example, stop idle or near to inactive services.
+<!-- CloudWatch Dashboard -->
+Access CloudWatch from your browser.
+
+It gives you an overview of your resources in one single view.
+
+CloudWatch gives insights across AWS services.
+
+You can make many dashboards based on your needs.

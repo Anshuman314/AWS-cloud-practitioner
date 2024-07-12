@@ -1,0 +1,17 @@
+<!-- What is AWS Organization? -->
+AWS Organizations is a container for your AWS accounts.
+
+It comes with an organization root user by default.
+
+It allows you to manage permissions of your organization's accounts.
+
+Permissions in AWS organizations are controlled by service control policies (SCPs).
+
+SCPs allow you to restrict AWS resources and services for each account.
+<!-- What Are Organizational Units -->
+Organizational units (OUs) are groups of accounts in the AWS organization.
+
+OUs are used to manage accounts with the same or similar permissions more easily.
+
+The permission policy of OU is applied to all OU accounts.
+

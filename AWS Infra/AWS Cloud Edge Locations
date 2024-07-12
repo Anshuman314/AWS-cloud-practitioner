@@ -1,0 +1,30 @@
+<!-- Introduction Edge Locations -->
+Edge Location is the Data Center used to deliver content fast to your users.
+
+It is the site that is nearest your users.
+<!-- Fast Delivery -->
+The AWS Edge Locations uses a service called CloudFront.
+
+CloudFront is used to store cached copies of your content.
+
+Resulting in fast delivery of your content.
+
+<!-- What is Cache? -->
+Caching helps the software to deliver content faster and cheaper.
+
+Cache is fast storage that copies and stores parts of data.
+
+The data is stored in hardware that can deliver content fast, for example, RAM (Random-access memory).
+
+The main job of the cache is to deliver content fast.
+
+The data is saved in the fast hardware layer so that it does not have to use the slow storage hardware.
+The content is delivered faster because the data is no longer requested from the primary location.
+
+It is delivered from the Edge Location. The location nearest to the user.
+<!-- How Cache Works -->
+The cache saves subsets of the data, making it available.
+
+Once someone requests the data, it is copied and stored at the Edge Location.
+
+When the next person requests the same data, it will be delivered faster from the nearest Edge Location.

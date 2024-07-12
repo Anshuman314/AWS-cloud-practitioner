@@ -1,0 +1,27 @@
+<!-- Denial-of-Service Attacks -->
+Denial-of-service attacks (DoS) attack is an effort to make an application or a website inaccessible.
+
+The DoS causes an excessive flood of data that overloads an application or a website network.
+
+DoS attack comes from a single source.
+
+<!-- Distributed Denial-of-Service Attacks -->
+Distributed denial-of-service attacks (DDoS) attack comes from different sources.
+
+Like DoS, DDoS attempts to make an application or a website inaccessible.
+
+The attack can come from more than one attacker or a single attacker that uses bots.
+
+Bots are infected computers that automatically flood your application or a website with excessive traffic.
+
+AWS provides you with an AWS Shield to reduce DoS and DDoS attack effects on your application or a website.
+<!-- AWS Shield -->
+AWS Shield gives protection against DoS and DDoS attacks.
+
+It provides standard and advanced protection.
+
+AWS Shield Standard protection protects all AWS users at no expense.
+
+AWS Shield Advanced is a paid service.
+
+AWS Shield Advanced provides attack details and can minimize the effects of more complex attacks.

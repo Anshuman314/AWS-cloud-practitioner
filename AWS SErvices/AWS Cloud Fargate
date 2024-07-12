@@ -1,0 +1,53 @@
+<!-- Serverless Compute for Containers - AWS Fargate -->
+It helps to deploy and manage applications.
+
+Fargate manages the infrastructure for you.
+
+You do not have to think about the provision of servers and infrastructure management when using Fargate.
+<!-- How AWS Fargate Works -->
+It is a serverless service.
+
+Fargate has a pay-as-you-go pricing model.
+
+It lets you focus on doing the most important thing, building your awesome applications.
+
+<!-- Define Your Container Task: -->
+
+Go to the Amazon ECS Console.
+Click "Task Definitions" and then "Create new Task Definition".
+Choose "Fargate" as the launch type.
+Configure the task definition with the necessary container details.
+Create an ECS Cluster:
+
+Go to the "Clusters" section and click "Create Cluster".
+Choose "Networking only" and proceed to create the cluster.
+Run Your Task Using Fargate:
+
+In the cluster view, click "Run new Task".
+Choose the Fargate launch type.
+Select the task definition created earlier.
+Configure the network settings and start the task.
+<!-- Create a JSON file to define your task. Let's call it task-definition.json. -->
+
+{
+  "family": "sample-task",
+  "networkMode": "awsvpc",
+  "requiresCompatibilities": [
+    "FARGATE"
+  ],
+  "cpu": "256",
+  "memory": "512",
+  "containerDefinitions": [
+    {
+      "name": "sample-app",
+      "image": "amazon/amazon-ecs-sample",
+      "essential": true,
+      "portMappings": [
+        {
+          "containerPort": 80,
+          "hostPort": 80
+        }
+      ]
+    }
+  ]
+}

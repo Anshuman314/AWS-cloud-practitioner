@@ -1,0 +1,58 @@
+<!-- AWS Cloud Different Database Types -->
+AWS offers more types of databases.
+
+It is good to be aware of them, should you need to use them.
+
+<!-- AWS DocumentDB -->
+AWS DocumentDB is a document-based database service.
+
+It is a type of NoSQL database.
+
+It supports MongoDB.
+
+It is ideal for content management systems, user profiling, cataloging.
+
+The following is an example of a document inside a document-based database.
+
+{
+ name: "Jason",
+ age: "29",
+ city: "New York"
+ profession: "Accountant"
+}
+<!-- AWS Neptune -->
+AWS Neptune is a graph database service.
+
+It can be used to create graphs from your data for various purposes.
+
+It is great for financial records, supply chain systems, and other centralized digital records.
+<!-- AWS QLDB (AWS Quantum Ledger Database) -->
+AWS QLDB is a ledger database service.
+
+It provides historical data of all of your application changes.
+
+It is great for financial records, supply chain systems, and other centralized digital records.
+<!-- AWS Managed Blockchain -->
+AWS Managed Blockchain is a service that utilizes open-source frameworks to create or manage blockchain networks.
+
+With a few clicks, you can join, create, and manage blockchain networks.
+
+Ethereum and Hyperledger Fabric are popular open-source blockchain technologies.
+<!-- AWS ElastiCache -->
+AWS ElastiCache service adds catching layers on top of a database.
+
+Catching layer stores a part of data.
+
+It accelerates application performance.
+
+It improves the read times of database requests.
+
+Redis and Memcached are supported with the AWS ElastiCache service.
+<!-- AWS DynamoDB Accelerator (DAX) -->
+It is an in-memory cache service for AWS DynamoDB.
+
+It improves read times for your non-relational data.
+
+It improves response times from milliseconds to microseconds.
+
+It is a fully managed, flexible, and secure service.

@@ -1,0 +1,44 @@
+<!-- Cloud Relational Database - Amazon RDS -->
+AWS RDS is also called AWS Relational Database Service.
+
+RDS is a service that automates database tasks.
+
+It enables running relational databases in AWS Cloud.
+
+It supports these database engines:
+
+AWS Aurora
+PostgreSQL
+MySQL
+MariaDB
+Oracle Database
+Microsoft SQL Server
+AWS RDS database engines offer data encryption while data is stored, sent, and received.
+AWS RDS helps you complete administrative tasks faster.
+
+Decreasing the time needed for administrative tasks gives you more time to develop application features.
+<!-- What is a Relational Database? -->
+In a relational database, data is stored so that it may be linked to other data.
+
+A relational database commonly use SQL (Structured Query language) to store and query data.
+
+Relational database example:
+
+ID	Product name	Price
+1	T-shirt	$20
+2	Jeans	$35
+3	Shoes	$50
+<!-- What is Amazon Aurora? -->
+Amazon Aurora is a relational database ideal for large organizations and enterprises.
+
+It offers high availability of data.
+
+It is excellent for managing large amounts of data.
+
+It is five times faster than a MySQL database.
+
+It is three times faster than a PostgreSQL database.
+
+Amazon Aurora creates six copies of data across three Availability Zones and a data backup on Amazon S3.
+
+It ensures the data is available at all times.

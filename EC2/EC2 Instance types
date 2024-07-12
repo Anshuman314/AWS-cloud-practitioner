@@ -1,0 +1,15 @@
+# More About EC2 Instance Types
+
+The types are best used for different things. Therefore, when selecting an instance type, consider the needs. For example, needs can be a requirement for compute, memory, or storage.
+
+| **Instance Type**              | **Description**                                                                 | **Best Used For**                                                    |
+|--------------------------------|---------------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| **General Purpose Instances**  | Balances computing, memory, and networking resources.                           | - Application servers<br>- Gaming servers<br>- Backend servers for companies<br>- Small and medium databases |
+| **Compute Optimized Instances**| Ideal for high compute needs and compute-intensive applications.               | - High-performance computing<br>- Application servers<br>- Gaming servers<br>- Web applications |
+| **Memory Optimized Instances** | Delivers large dataset workloads quickly, with a focus on memory capacity.     | - Applications requiring large amounts of data preloaded before running |
+| **Accelerated Computing Instances** | Uses hardware accelerators to boost data processing.                           | - Graphics applications<br>- Streaming                                |
+| **Storage Optimized Instances**| Designed for applications with large datasets on local storage.                | - Large file systems<br>- Data warehouses<br>- Online transaction systems |
+
+Each instance type is designed to meet different needs, so consider the specific requirements for compute, memory, and storage when selecting an instance type.
+
+

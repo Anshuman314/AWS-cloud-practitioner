@@ -1,0 +1,34 @@
+<!-- Ways to Interact with AWS Services -->
+There are three main ways to interact with AWS services.
+
+<!-- AWS Management Console -->
+The AWS Management Console is a web-based interface.
+
+It is used to access and manage AWS services.
+
+The AWS Management Console has a mobile application.
+
+The mobile view is best used for monitoring and accessing billing information.
+
+<!-- AWS Command Line Interface -->
+AWS Command Line Interface is also called "AWS CLI".
+
+CLI saves you time when making API requests.
+
+It allows you to control multiple AWS services with one tool.
+
+CLI allows you to automate actions on services with scripts.
+
+It is available on Windows, macOS, and Linux.
+<!-- Software Development Kits -->
+Software development kits are also called "SDKs".
+
+SDKs is another option to access and manage AWS services.
+
+It eases the use of AWS services through an API.
+
+The API is fitted to the platform or programing language that you use.
+
+SDKs can be used on existing applications or new ones built on AWS.
+
+AWS SDKs supports programming languages such as C++, Java, .NET, and more.

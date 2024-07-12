@@ -1,0 +1,69 @@
+<!-- Subnets: -->
+A Subnet is a section of a VPC.
+
+The Subnet allows you to group resources.
+
+The groupings can have different security or operations needs.
+
+You can have both public and private Subnets.
+
+<!-- Public Subnets -->
+Public Subnets have resources that the public can access.
+
+For example, your company page, such as W3Schools.com.
+
+<!-- Private Subnets -->
+Private Subnets have resources that can only be accessed through the private network.
+
+For example, databases holding customer data.
+<!-- Network Traffic in a VPC -->
+Requested data are sent as a Packet.
+
+A Packet is a package of data sent over a network or the internet.
+
+It enters the VPC through an Internet Gateway.
+
+Before entering a Subnet it checks for permissions.
+
+Checking permissions such as:
+
+<!-- Who sent the Packet? -->
+How will the Packet communicate with the resources in the Subnet
+Network Access Control Lists
+Network Access Control Lists are called ACLs.
+
+ACL is a firewall that controls the traffic, both inbound and outbound.
+
+It controls the traffic at the subnet level.
+
+The ACL checks and controls the Packets.
+
+If the Packet is on the approved list, it will pass through.
+
+However, if they are not on the list, they will be denied access.
+
+Read more about permissions in a subnet at The AWS Documentation: Network Access Control List(ACL)
+<!-- Stateless Packet Filtering -->
+The ACLs do Stateless Packet filtering.
+
+They have no memory and will forget the request once checked.
+
+Their job is to check the Packets that go in and out.
+
+It uses the set rules to approve or deny access.
+<!-- Security Groups -->
+A Security Group is a firewall that controls inbound and outbound traffic.
+
+This feature is specific for an AWS EC2 instance.
+
+The default config denies all inbound traffic and allows all outbound.
+
+You have to add new rules to change this config.
+<!-- Stateful Packet Filtering -->
+Security Groups do stateful Packet filtering.
+
+They remember the actions that they have done with Packets in the past.
+<!-- Configuration -->
+ACLs and Security groups can be configured.
+
+Configuration means adding custom rules for the traffic.

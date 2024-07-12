@@ -1,0 +1,29 @@
+<!-- Cloud Inspection Service - AWS TrustedAdvisor -->
+TrustedAdvisor checks your account, evaluates, and recommends.
+
+It recommends helping you follow AWS best practices.
+<!-- How TrustedAdvisor Works -->
+TrustedAdvisor is a web-based, real-time recommendation service.
+
+The service checks your account and compares its findings to the following categories:
+
+Cost optimization
+Performance
+Security
+Fault tolerance
+Service limits
+TrustedAdvisor returns a list of recommended actions.
+
+It will also provide recommendations for learning material to understand AWS best practices better.
+
+<!-- AWS TrustedAdvisor Dashboard -->
+TrustedAdvisor has a dashboard.
+
+The dashboard is web-based.
+
+Access TrustedAdvisor from the AWS Management Console.
+The dashboard gives you an overview of the completed checks and results per category.
+
+Green check: no problems
+Orange triangle: recommended investigations
+Red circle: recommended actions

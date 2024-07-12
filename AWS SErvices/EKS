@@ -1,0 +1,17 @@
+<!-- What is Kubernetes? -->
+Kubernetes is open-source software.
+
+It helps you deploy and manage containerized applications.
+
+Kubernetes has a large community.
+
+AWS continuously keeps the AWS EKS service updated to the latest Kubernetes features.
+
+<!-- How AWS EKS works -->
+AWS EKS is used to run and scale Kubernetes applications in the cloud and on-premises.
+
+Deploy applications in different ways:
+
+Cloud Deployment
+Deployment on your infrastructure
+Deployment with your tools

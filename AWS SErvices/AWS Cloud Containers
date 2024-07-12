@@ -1,0 +1,20 @@
+<!-- Containers in the AWS Cloud -->
+Containers are popular for deploying and managing applications in the cloud.
+
+Containers let you package code in a single object.
+
+The container isolates the code and removes the dependencies to other components.
+
+It runs in isolation.
+
+Containers are an essential concept in micro service architectures.
+<!-- Containerized Approach -->
+Having the application in a container makes debugging easier.
+
+It makes it easier because the application is inside of an isolated container.
+
+The container remains consistent regardless of deployment.
+<!-- Containers and Scale -->
+Container orchestration services help you deploy, manage, and scale your containerized applications.
+
+In the following chapters, you will learn about two services that provide container orchestration: AWS Elastic Container Service and AWS Elastic Kubernetes Service.

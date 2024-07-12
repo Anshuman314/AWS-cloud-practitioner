@@ -1,0 +1,34 @@
+<!-- Cloud Action Logging Service - AWS CloudTrail -->
+CloudTrail logs actions inside your AWS environment.
+
+It records API calls on your account.
+<!-- CloudTrail -->
+CloudTrail logs actions on your account as a trail.
+
+Example of data logs:
+
+Identity
+Time
+IP address
+and much more.
+CloudTrail gives a complete history of user activity and API calls on your resources.
+
+<!-- CloudTrail Events -->
+CloudTrail can be used to create events.
+
+Events are set up to understand what has happened.
+
+CloudTrail lets you filter and locates specific events.
+
+Events can for example, tell us:
+
+What?
+Who?
+When?
+How?
+The event gives situational insight.
+<!-- CloudTrail Insights -->
+CloudTrail has a feature called CloudTrail Insights.
+
+Insights let you detect unusual API activities on your account by automation.
+

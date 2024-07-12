@@ -1,0 +1,36 @@
+<!-- AWS EC2 Auto Scaling -->
+Servers can get more requests than they can handle.
+
+Too many requests can cause timeouts and outages.
+
+AWS EC2 Auto Scaling allows you to add or remove EC2 instances automatically.
+
+It automates the capacity to the demand.
+
+There are two approaches:
+
+Dynamic scaling: responds to changing demand
+Predictive scaling: schedules the number of instances based on a predicted demand
+Dynamic and Predictive scaling can be combined to scale faster
+
+<!-- AWS EC2 Auto Scaling -->
+EC2 Auto Scaling can be added as a buffer on top of your instances.
+
+It can add new instances to the application when necessary and terminate them when no longer needed.
+
+You can set up a group of instances.
+
+Here you can set a minimum capacity of instances that will always be running. The rest will operate when necessary.
+
+You can set the desired number of AWS EC2 instances in the scaling group.
+
+However, the desired capacity defaults to your minimum capacity if not specified.
+
+The last configuration is Maximum capacity.
+
+Here you set the maximum capacity of instances to be used.
+The Auto Scaling groups allow you to have a dynamic environment.
+
+You set the minimum capacity, the desired number, and the maximum capacity.
+
+The group will operate within the config and give you a predictable and cost-effective architecture.

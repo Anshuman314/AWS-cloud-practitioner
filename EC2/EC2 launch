@@ -1,0 +1,70 @@
+<!-- To launch an AWS EC2 instance using a basic configuration, you can use either the AWS Management Console, the AWS CLI, or an Infrastructure as Code (IaC) tool like AWS CloudFormation or Terraform. Below is an example of how you can achieve this using AWS CloudFormation and Terraform. -->
+
+<!-- Steps Explanation
+Operating System and Application Configuration: Both the CloudFormation template and Terraform configuration specify the Amazon Machine Image (AMI) ID, which determines the operating system of the EC2 instance. You can replace the AMI ID with one that includes the desired operating system and application server.
+
+Instance Type and Hardware Configuration: The instance type is set to t2.micro in both examples, which is a general-purpose instance type. You can change it to any instance type that suits your hardware requirements.
+
+Security Settings: The security group configurations in both examples allow inbound SSH (port 22) and HTTP (port 80) traffic from any IP address (0.0.0.0/0). You can modify these settings to restrict access as needed. -->
+
+AWS CloudFormation Template:
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Basic EC2 instance setup
+Resources:
+  MyEC2Instance:
+    Type: 'AWS::EC2::Instance'
+    Properties: 
+      InstanceType: t2.micro
+      ImageId: ami-0c55b159cbfafe1f0 # Replace with your desired AMI ID
+      KeyName: MyKeyPair # Replace with your key pair name
+      SecurityGroups:
+        - !Ref MySecurityGroup
+  MySecurityGroup:
+    Type: 'AWS::EC2::SecurityGroup'
+    Properties: 
+      GroupDescription: Allow SSH and HTTP
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 22
+          ToPort: 22
+          CidrIp: 0.0.0.0/0
+        - IpProtocol: tcp
+          FromPort: 80
+          ToPort: 80
+          CidrIp: 0.0.0.0/0
+Terraform Configuration:
+provider "aws" {
+  region = "us-east-1" # Replace with your desired region
+}
+
+resource "aws_instance" "example" {
+  ami           = "ami-0c55b159cbfafe1f0" # Replace with your desired AMI ID
+  instance_type = "t2.micro"
+  key_name      = "MyKeyPair" # Replace with your key pair name
+
+  vpc_security_group_ids = [aws_security_group.instance.id]
+
+  tags = {
+    Name = "ExampleInstance"
+  }
+}
+
+resource "aws_security_group" "instance" {
+  name        = "allow_ssh_http"
+  description = "Allow SSH and HTTP traffic"
+  vpc_id      = "vpc-12345678" # Replace with your VPC ID
+
+  ingress {
+    from_port   = 22
+    to_port     = 22
+    protocol    = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+
+  ingress {
+    from_port   = 80
+    to_port     = 80
+    protocol    = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+}

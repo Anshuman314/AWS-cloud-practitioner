@@ -1,0 +1,62 @@
+<!-- Serverless Cloud Compute - AWS Lambda -->
+AWS Lambda a serverless compute service.
+
+This service lets you run code without needing to think about servers.
+
+It lets you focus on what's most important, such as making a great application.
+
+You only pay for the compute time that you use.
+
+Pay for what you use translates to that you only pay when your code is running.
+<!-- How AWS Lambda Works -->
+Deploy your code to Lambda: This involves creating a Lambda function and adding your code.
+Make the code ready to trigger an event: This step sets up the API Gateway to trigger the Lambda function.
+The code only runs when triggered: The Lambda function only runs when it receives an HTTP request.
+Pay only when your code is running: With AWS Lambda, you are charged based on the number of requests and the duration your code runs.
+<!-- Example: -->
+
+You can look at serverless as a car.
+
+You start the car to travel to your destination.
+
+Once you are at the destination, you stop it.
+
+You only used fuel when driving.
+
+Lambda works in the same way. The use is on-demand when you run the code.
+<!-- What is AWS Lambda? -->
+Serverless computing helps abstract the infrastructure in the cloud.
+
+As a result, it reduces costs and can help to increase innovation.
+
+AWS Lambda can be used to:
+
+Build and deploy apps
+Monitor and maintain apps
+
+<!-- Step 1: Deploy Your Code to Lambda -->
+Go to the AWS Lambda Console.
+Click "Create function".
+Choose "Author from scratch".
+Set the function name (e.g., MyLambdaFunction).
+Choose the runtime (e.g., Python 3.8).
+Click "Create function".
+<!-- Step 2: Add Your Code -->
+In the function code editor, add the following basic Python code:
+
+python
+def lambda_handler(event, context):
+    return {
+        'statusCode': 200,
+        'body': 'Hello, World!'
+    }
+<!-- Step 3: Set Up an API Gateway Trigger -->
+In the Lambda function console, click on "Add trigger".
+Choose "API Gateway".
+Select "Create an API".
+Choose "HTTP API".
+Click "Add".
+<!-- Step 4: Test Your Function -->
+After setting up the API Gateway trigger, you will see an "API endpoint" URL.
+Copy the URL and paste it into your web browser.
+You should see the response: Hello, World!

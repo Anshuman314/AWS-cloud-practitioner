@@ -1,0 +1,24 @@
+<!-- Serverless Computing -->
+Serverless is a service where you do not have to think about servers.
+
+With serverless, you only have to think about code.
+
+The cloud provider handles all infrastructure behind it.
+
+The Difference between EC2 and Serverless
+AWS EC2 provides virtual server instances.
+
+<!-- To run EC2, you must do the following: -->
+
+Provision of the virtual server instances
+Deploy your code
+Operate and maintain the servers
+computing with virtual servers and serverless computing compared
+Image created by Amazon Web Services
+
+<!-- Serverless requires no server management. -->
+
+Having less to think about with operating server lets you focus on the important things.
+
+The serverless approach is suitable for scale.
+
