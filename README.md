@@ -1,11 +1,14 @@
 # AWS-cloud-practitioner
 `Basic understanding of aws services`
-( ) wfjwh
-{ } duwh 
 * [ ] Lets dive into it
 * [ ] ffgf
 * [ ] fbfb
 * [ ] ;dlf
+
+[Example] (https://google.com)
+"Example": https://google.com
+https://google.com - Example
+<a href="https://google.com">Example</a>
 
 # Exam overview - 
 Category:	Foundational
