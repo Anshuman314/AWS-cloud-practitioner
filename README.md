@@ -1,6 +1,6 @@
 # AWS-cloud-practitioner
 `Basic understanding of aws services`
-<checkbox> lets dive into it </checkbox>
+*[] Lets dive into it
 # Exam overview - 
 Category:	Foundational
 Exam duration: 90 minutes
