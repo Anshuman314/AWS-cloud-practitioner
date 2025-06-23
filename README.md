@@ -4,6 +4,8 @@
 * [ ] ffgf
 * [ ] fbfb
 * [ ] ;dlf
+( ) wfjwh
+{ } duwh
 # Exam overview - 
 Category:	Foundational
 Exam duration: 90 minutes
