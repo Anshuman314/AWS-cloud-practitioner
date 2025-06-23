@@ -1,11 +1,12 @@
 # AWS-cloud-practitioner
 `Basic understanding of aws services`
+( ) wfjwh
+{ } duwh 
 * [ ] Lets dive into it
 * [ ] ffgf
 * [ ] fbfb
 * [ ] ;dlf
-( ) wfjwh
-{ } duwh
+
 # Exam overview - 
 Category:	Foundational
 Exam duration: 90 minutes
